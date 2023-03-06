@@ -287,6 +287,11 @@ button {
 /*---- Mobile Section IphoneSE ----*/
 
 @media screen and (max-width: 375px) {
+
+    body {
+        padding: 0;
+        margin:  0;
+    }
     .logo {
         display:none;
     }
@@ -318,6 +323,12 @@ button {
         margin: 0;
     }
 
+    .banner-text h1 {
+        padding-top: 1rem;
+        padding-right: 1rem;
+        font-size: 2rem;
+    }
+
     .banner-text {
         width: 100%;
         padding-top: 2rem;
@@ -327,11 +338,14 @@ button {
     .top-button {
         margin-top: 1.5rem;
         margin-bottom: 2rem;
-        
         width: 70%;
         margin-left: auto;
         margin-right: auto;
         background-color:rgb(155,155,155) ;
         border: solid 0px
+    }
+
+    .left-info {
+        display: none;
     }
 }
